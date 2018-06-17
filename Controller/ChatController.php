@@ -43,6 +43,7 @@ class ChatController extends Controller
         $message->setChannel($channel);
         $message->setMessage($request->get('message'));
         $message->setInsertDate(new \DateTime());
+
         $this->getDoctrine()->getManager()->persist($message);
         $this->getDoctrine()->getManager()->flush();
 
