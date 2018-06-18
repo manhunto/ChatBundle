@@ -1,3 +1,8 @@
+My changes @manhunto
+============
+Fix module to work with symfony 3.2 and add GUI little improvements using bootstrap
+
+
 [![Build Status](https://travis-ci.org/dmecke/ChatBundle.svg)](https://travis-ci.org/dmecke/ChatBundle)
 
 Installation
